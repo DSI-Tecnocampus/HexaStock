@@ -1,4 +1,4 @@
-package cat.gencat.agaur.hexastock.model.exception;
+package cat.gencat.agaur.hexastock.application.model.exception;
 
 /**
  * InvalidAmountException indicates that a financial operation was attempted with an invalid monetary amount.

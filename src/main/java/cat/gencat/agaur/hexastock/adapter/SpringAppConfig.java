@@ -6,7 +6,7 @@ import cat.gencat.agaur.hexastock.application.port.out.PortfolioPort;
 import cat.gencat.agaur.hexastock.application.port.out.StockPriceProviderPort;
 import cat.gencat.agaur.hexastock.application.port.out.TransactionPort;
 import cat.gencat.agaur.hexastock.application.service.*;
-import cat.gencat.agaur.hexastock.model.service.HoldingPerformanceCalculator;
+import cat.gencat.agaur.hexastock.application.model.service.HoldingPerformanceCalculator;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;

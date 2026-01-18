@@ -969,8 +969,8 @@ Then implement the port:
 package cat.gencat.agaur.hexastock.adapter.out.twelvedata;
 
 import cat.gencat.agaur.hexastock.application.port.out.StockPriceProviderPort;
-import cat.gencat.agaur.hexastock.model.Ticker;
-import cat.gencat.agaur.hexastock.model.StockPrice;
+import cat.gencat.agaur.hexastock.application.model.Ticker;
+import cat.gencat.agaur.hexastock.application.model.StockPrice;
 
 public class TwelveDataStockPriceProviderAdapter implements StockPriceProviderPort {
 

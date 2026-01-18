@@ -3,9 +3,9 @@ package cat.gencat.agaur.hexastock.adapter.out.persistence.jpa.repository;
 import cat.gencat.agaur.hexastock.adapter.out.persistence.jpa.entity.PortfolioJpaEntity;
 import cat.gencat.agaur.hexastock.adapter.out.persistence.jpa.mapper.PortfolioMapper;
 import cat.gencat.agaur.hexastock.adapter.out.persistence.jpa.springdatarepository.JpaPortfolioSpringDataRepository;
-import cat.gencat.agaur.hexastock.model.exception.PortfolioNotFoundException;
+import cat.gencat.agaur.hexastock.application.model.exception.PortfolioNotFoundException;
 import cat.gencat.agaur.hexastock.application.port.out.PortfolioPort;
-import cat.gencat.agaur.hexastock.model.Portfolio;
+import cat.gencat.agaur.hexastock.application.model.Portfolio;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 

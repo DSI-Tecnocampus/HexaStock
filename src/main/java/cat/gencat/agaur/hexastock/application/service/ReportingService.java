@@ -1,13 +1,13 @@
 package cat.gencat.agaur.hexastock.application.service;
 
 import cat.gencat.agaur.hexastock.adapter.in.webmodel.HoldingDTO;
-import cat.gencat.agaur.hexastock.model.exception.PortfolioNotFoundException;
+import cat.gencat.agaur.hexastock.application.model.*;
+import cat.gencat.agaur.hexastock.application.model.exception.PortfolioNotFoundException;
 import cat.gencat.agaur.hexastock.application.port.in.ReportingUseCase;
 import cat.gencat.agaur.hexastock.application.port.out.PortfolioPort;
 import cat.gencat.agaur.hexastock.application.port.out.StockPriceProviderPort;
 import cat.gencat.agaur.hexastock.application.port.out.TransactionPort;
-import cat.gencat.agaur.hexastock.model.*;
-import cat.gencat.agaur.hexastock.model.service.HoldingPerformanceCalculator;
+import cat.gencat.agaur.hexastock.application.model.service.HoldingPerformanceCalculator;
 import jakarta.transaction.Transactional;
 
 import java.util.List;

@@ -1,13 +1,14 @@
 package cat.gencat.agaur.hexastock.application.service;
 
+import cat.gencat.agaur.hexastock.application.model.exception.InsufficientFundsException;
 import cat.gencat.agaur.hexastock.application.port.in.PortfolioManagementUseCase;
-import cat.gencat.agaur.hexastock.model.exception.InvalidAmountException;
-import cat.gencat.agaur.hexastock.model.exception.PortfolioNotFoundException;
+import cat.gencat.agaur.hexastock.application.model.exception.InvalidAmountException;
+import cat.gencat.agaur.hexastock.application.model.exception.PortfolioNotFoundException;
 import cat.gencat.agaur.hexastock.application.port.out.PortfolioPort;
 import cat.gencat.agaur.hexastock.application.port.out.TransactionPort;
-import cat.gencat.agaur.hexastock.model.Money;
-import cat.gencat.agaur.hexastock.model.Portfolio;
-import cat.gencat.agaur.hexastock.model.Transaction;
+import cat.gencat.agaur.hexastock.application.model.Money;
+import cat.gencat.agaur.hexastock.application.model.Portfolio;
+import cat.gencat.agaur.hexastock.application.model.Transaction;
 import jakarta.transaction.Transactional;
 import java.util.List;
 
@@ -105,7 +106,7 @@ public class PortfolioManagementService implements PortfolioManagementUseCase {
      * @param portfolioId The ID of the portfolio to deposit into
      * @param amount The amount of money to deposit
      * @throws PortfolioNotFoundException if the portfolio is not found
-     * @throws cat.gencat.agaur.hexastock.model.exception.InsufficientFundsException if the deposit amount is not positive
+     * @throws InsufficientFundsException if the deposit amount is not positive
      */
     @Override
     public void deposit(String portfolioId, Money amount) {
@@ -133,7 +134,7 @@ public class PortfolioManagementService implements PortfolioManagementUseCase {
      * @param amount The amount of money to withdraw
      * @throws PortfolioNotFoundException if the portfolio is not found
      * @throws InvalidAmountException if the withdrawal amount is not positive
-     * @throws cat.gencat.agaur.hexastock.model.exception.InsufficientFundsException if there are insufficient funds for the withdrawal
+     * @throws InsufficientFundsException if there are insufficient funds for the withdrawal
      */
     @Override
     public void withdraw(String portfolioId, Money amount) {

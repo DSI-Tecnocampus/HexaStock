@@ -1,4 +1,4 @@
-package cat.gencat.agaur.hexastock.model;
+package cat.gencat.agaur.hexastock.application.model;
 
 /**
  * TransactionType represents the different kinds of financial activities in a portfolio.

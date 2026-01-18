@@ -1,6 +1,7 @@
 package cat.gencat.agaur.hexastock.model;
 
-import cat.gencat.agaur.hexastock.model.exception.InvalidTickerException;
+import cat.gencat.agaur.hexastock.application.model.Ticker;
+import cat.gencat.agaur.hexastock.application.model.exception.InvalidTickerException;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;

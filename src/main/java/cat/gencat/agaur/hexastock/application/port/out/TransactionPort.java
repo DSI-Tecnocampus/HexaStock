@@ -1,6 +1,6 @@
 package cat.gencat.agaur.hexastock.application.port.out;
 
-import cat.gencat.agaur.hexastock.model.Transaction;
+import cat.gencat.agaur.hexastock.application.model.Transaction;
 
 import java.util.List;
 

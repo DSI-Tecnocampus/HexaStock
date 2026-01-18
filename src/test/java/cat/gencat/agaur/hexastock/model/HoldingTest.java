@@ -1,7 +1,11 @@
 package cat.gencat.agaur.hexastock.model;
 
-import cat.gencat.agaur.hexastock.model.exception.ConflictQuantityException;
-import cat.gencat.agaur.hexastock.model.exception.EntityExistsException;
+import cat.gencat.agaur.hexastock.application.model.Holding;
+import cat.gencat.agaur.hexastock.application.model.Lot;
+import cat.gencat.agaur.hexastock.application.model.SellResult;
+import cat.gencat.agaur.hexastock.application.model.Ticker;
+import cat.gencat.agaur.hexastock.application.model.exception.ConflictQuantityException;
+import cat.gencat.agaur.hexastock.application.model.exception.EntityExistsException;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;

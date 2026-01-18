@@ -1,4 +1,4 @@
-package cat.gencat.agaur.hexastock.model.exception;
+package cat.gencat.agaur.hexastock.application.model.exception;
 
 /**
  * InsufficientFundsException indicates that a financial operation cannot be completed

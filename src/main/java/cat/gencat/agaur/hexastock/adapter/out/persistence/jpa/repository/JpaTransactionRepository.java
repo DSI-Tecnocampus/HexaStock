@@ -4,7 +4,7 @@ import cat.gencat.agaur.hexastock.adapter.out.persistence.jpa.entity.Transaction
 import cat.gencat.agaur.hexastock.adapter.out.persistence.jpa.mapper.TransactionMapper;
 import cat.gencat.agaur.hexastock.adapter.out.persistence.jpa.springdatarepository.JpaTransactionSpringDataRepository;
 import cat.gencat.agaur.hexastock.application.port.out.TransactionPort;
-import cat.gencat.agaur.hexastock.model.Transaction;
+import cat.gencat.agaur.hexastock.application.model.Transaction;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Component;
 

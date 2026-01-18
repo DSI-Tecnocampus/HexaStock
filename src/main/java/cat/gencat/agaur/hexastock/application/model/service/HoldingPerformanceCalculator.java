@@ -1,7 +1,7 @@
-package cat.gencat.agaur.hexastock.model.service;
+package cat.gencat.agaur.hexastock.application.model.service;
 
 import cat.gencat.agaur.hexastock.adapter.in.webmodel.HoldingDTO;
-import cat.gencat.agaur.hexastock.model.*;
+import cat.gencat.agaur.hexastock.application.model.*;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;

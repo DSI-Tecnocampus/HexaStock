@@ -1,4 +1,4 @@
-package cat.gencat.agaur.hexastock.model.exception;
+package cat.gencat.agaur.hexastock.application.model.exception;
 
 /**
  * EntityExistsException indicates that an attempt was made to create or add an entity
@@ -16,13 +16,13 @@ package cat.gencat.agaur.hexastock.model.exception;
  * <p>It represents a business rule that maintains data integrity by preventing duplicate
  * entities within aggregates.</p>
  */
-public class HoldingNotFoundException extends DomainException {
+public class EntityExistsException extends DomainException {
     /**
      * Constructs a new EntityExistsException with the specified detail message.
-     *
+     * 
      * @param message The detail message explaining which entity already exists
      */
-    public HoldingNotFoundException(String message) {
+    public EntityExistsException(String message) {
         super(message);
     }
 }

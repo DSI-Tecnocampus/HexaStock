@@ -1,6 +1,6 @@
 package cat.gencat.agaur.hexastock.adapter.out.persistence.jpa.entity;
 
-import cat.gencat.agaur.hexastock.model.TransactionType;
+import cat.gencat.agaur.hexastock.application.model.TransactionType;
 import jakarta.persistence.*;
 
 import java.math.BigDecimal;

@@ -1,10 +1,12 @@
 package cat.gencat.agaur.hexastock.application.port.in;
 
-import cat.gencat.agaur.hexastock.model.SellResult;
-import cat.gencat.agaur.hexastock.model.Ticker;
-import cat.gencat.agaur.hexastock.model.exception.ConflictQuantityException;
-import cat.gencat.agaur.hexastock.model.exception.InvalidQuantityException;
-import cat.gencat.agaur.hexastock.model.exception.PortfolioNotFoundException;
+import cat.gencat.agaur.hexastock.application.model.exception.DomainException;
+import cat.gencat.agaur.hexastock.application.model.exception.InsufficientFundsException;
+import cat.gencat.agaur.hexastock.application.model.SellResult;
+import cat.gencat.agaur.hexastock.application.model.Ticker;
+import cat.gencat.agaur.hexastock.application.model.exception.ConflictQuantityException;
+import cat.gencat.agaur.hexastock.application.model.exception.InvalidQuantityException;
+import cat.gencat.agaur.hexastock.application.model.exception.PortfolioNotFoundException;
 
 /**
  * PortfolioStockOperationsUseCase defines the primary port for stock trading operations.
@@ -48,7 +50,7 @@ public interface PortfolioStockOperationsUseCase {
      * @param quantity The number of shares to buy
      * @throws PortfolioNotFoundException if the portfolio is not found
      * @throws InvalidQuantityException if the quantity is not positive
-     * @throws cat.gencat.agaur.hexastock.model.exception.InsufficientFundsException if there are insufficient funds for the purchase
+     * @throws InsufficientFundsException if there are insufficient funds for the purchase
      */
     void buyStock(String portfolioId, Ticker ticker, int quantity);
     
@@ -71,7 +73,7 @@ public interface PortfolioStockOperationsUseCase {
      * @return A SellResult containing proceeds, cost basis, and profit information
      * @throws PortfolioNotFoundException if the portfolio is not found
      * @throws InvalidQuantityException if the quantity is not positive
-     * @throws cat.gencat.agaur.hexastock.model.exception.DomainException if the ticker is not found in holdings
+     * @throws DomainException if the ticker is not found in holdings
      * @throws ConflictQuantityException if trying to sell more shares than owned
      */
     SellResult sellStock(String portfolioId, Ticker ticker, int quantity);

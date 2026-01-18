@@ -1,4 +1,4 @@
-package cat.gencat.agaur.hexastock.model;
+package cat.gencat.agaur.hexastock.application.model;
 
 import java.math.BigDecimal;
 import java.util.Currency;

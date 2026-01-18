@@ -1,4 +1,4 @@
-package cat.gencat.agaur.hexastock.model.exception;
+package cat.gencat.agaur.hexastock.application.model.exception;
 
 /**
  * DomainException is the base exception class for all domain-specific exceptions.

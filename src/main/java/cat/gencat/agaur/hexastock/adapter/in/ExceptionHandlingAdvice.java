@@ -1,13 +1,13 @@
 package cat.gencat.agaur.hexastock.adapter.in;
 
-import cat.gencat.agaur.hexastock.model.exception.ConflictQuantityException;
-import cat.gencat.agaur.hexastock.model.exception.InvalidAmountException;
-import cat.gencat.agaur.hexastock.model.exception.InvalidQuantityException;
-import cat.gencat.agaur.hexastock.model.exception.PortfolioNotFoundException;
-import cat.gencat.agaur.hexastock.model.exception.HoldingNotFoundException;
-import cat.gencat.agaur.hexastock.model.exception.ExternalApiException;
-import cat.gencat.agaur.hexastock.model.exception.InsufficientFundsException;
-import cat.gencat.agaur.hexastock.model.exception.InvalidTickerException;
+import cat.gencat.agaur.hexastock.application.model.exception.ConflictQuantityException;
+import cat.gencat.agaur.hexastock.application.model.exception.InvalidAmountException;
+import cat.gencat.agaur.hexastock.application.model.exception.InvalidQuantityException;
+import cat.gencat.agaur.hexastock.application.model.exception.PortfolioNotFoundException;
+import cat.gencat.agaur.hexastock.application.model.exception.HoldingNotFoundException;
+import cat.gencat.agaur.hexastock.application.model.exception.ExternalApiException;
+import cat.gencat.agaur.hexastock.application.model.exception.InsufficientFundsException;
+import cat.gencat.agaur.hexastock.application.model.exception.InvalidTickerException;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;

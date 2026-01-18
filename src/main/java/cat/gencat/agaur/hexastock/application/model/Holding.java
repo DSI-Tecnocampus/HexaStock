@@ -1,7 +1,7 @@
-package cat.gencat.agaur.hexastock.model;
+package cat.gencat.agaur.hexastock.application.model;
 
-import cat.gencat.agaur.hexastock.model.exception.ConflictQuantityException;
-import cat.gencat.agaur.hexastock.model.exception.EntityExistsException;
+import cat.gencat.agaur.hexastock.application.model.exception.ConflictQuantityException;
+import cat.gencat.agaur.hexastock.application.model.exception.EntityExistsException;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;

@@ -1,7 +1,8 @@
 package cat.gencat.agaur.hexastock.model.service;
 
 import cat.gencat.agaur.hexastock.adapter.in.webmodel.HoldingDTO;
-import cat.gencat.agaur.hexastock.model.*;
+import cat.gencat.agaur.hexastock.application.model.*;
+import cat.gencat.agaur.hexastock.application.model.service.HoldingPerformanceCalculator;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

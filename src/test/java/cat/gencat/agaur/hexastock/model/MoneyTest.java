@@ -1,5 +1,6 @@
 package cat.gencat.agaur.hexastock.model;
 
+import cat.gencat.agaur.hexastock.application.model.Money;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;

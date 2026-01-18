@@ -1,6 +1,6 @@
-package cat.gencat.agaur.hexastock.model;
+package cat.gencat.agaur.hexastock.application.model;
 
-import cat.gencat.agaur.hexastock.model.exception.*;
+import cat.gencat.agaur.hexastock.application.model.exception.*;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;

@@ -1,6 +1,6 @@
-package cat.gencat.agaur.hexastock.model;
+package cat.gencat.agaur.hexastock.application.model;
 
-import cat.gencat.agaur.hexastock.model.exception.InvalidTickerException;
+import cat.gencat.agaur.hexastock.application.model.exception.InvalidTickerException;
 
 /**
  * Ticker represents a stock ticker symbol used to uniquely identify a publicly traded company.
